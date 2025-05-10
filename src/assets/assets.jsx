@@ -3,11 +3,18 @@ import user2 from './user2.jpeg'
 import user3 from './user3.jpeg'
 import user4 from './user4.jpeg'
 
+import logocss from './LOGOCSS.png'
+import csslogo from './csslogo.jpeg'
+import udslogo from './udslogo.png'
+
 export const prof ={
     user1,
     user2,
     user3,
     user4,
+    csslogo,
+    udslogo,
+    logocss
 }
 
  export const facultyData = [

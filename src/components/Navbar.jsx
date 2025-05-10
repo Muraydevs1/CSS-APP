@@ -2,6 +2,7 @@
 
 import { Link } from "react-router-dom"
 import { FaBars, FaGraduationCap } from "react-icons/fa"
+import { prof } from "../assets/assets"
 
 const Navbar = ({ toggleMobileMenu }) => {
   return (
@@ -10,9 +11,10 @@ const Navbar = ({ toggleMobileMenu }) => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <FaGraduationCap className="h-8 w-8 mr-2" />
-              <span className="font-bold text-xl">CS Department</span>
+              <img src={prof.logocss} alt="" className="w-10 h-10" />
+              <span className="font-bold text-xl ml-2">CS Department</span>
             </Link>
+           
           </div>
 
           {/* Desktop Navigation */}

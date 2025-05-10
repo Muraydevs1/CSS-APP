@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import { FaBook, FaUsers, FaBullhorn, FaCalendarAlt } from "react-icons/fa"
 
+
 const Home = () => {
   return (
     <div className="bg-gray-50">
